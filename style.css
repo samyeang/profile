@@ -1,0 +1,75 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #911F27;
+  color: #FCF0C8;
+  font-family: 'Cookie', cursive;
+  font-size: 20px;
+}
+
+a{
+  color: #FCF0C8;
+}
+
+a:hover{
+  color: #FACE7F;
+}
+
+.img-circle{
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.img-circle img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-brown {
+  background: #630A10;
+  border: 1px solid #630A10;
+  box-shadow: 0 10px 30px #630A10;
+}
+
+#introduction{
+  padding: 40px;
+  margin: 20px 0px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
